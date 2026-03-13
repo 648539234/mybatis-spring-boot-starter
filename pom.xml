@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-       Copyright 2015-2023 the original author or authors.
+       Copyright 2015-2026 the original author or authors.
 
        Licensed under the Apache License, Version 2.0 (the "License");
        you may not use this file except in compliance with the License.
@@ -28,7 +28,7 @@
 
   <groupId>org.mybatis.spring.boot</groupId>
   <artifactId>mybatis-spring-boot</artifactId>
-  <version>2.3.2</version>
+  <version>${revision}</version>
   <packaging>pom</packaging>
 
   <name>mybatis-spring-boot</name>
@@ -67,7 +67,8 @@
   </distributionManagement>
 
   <properties>
-    <mybatis.version>3.5.14</mybatis.version>
+    <revision>2.3.2.KT-1.0.0-SNAPSHOT</revision>
+    <mybatis.version>3.5.19</mybatis.version>
     <mybatis-spring.version>2.1.2</mybatis-spring.version>
     <mybatis-freemarker.version>1.2.4</mybatis-freemarker.version>
     <mybatis-velocity.version>2.1.1</mybatis-velocity.version>
